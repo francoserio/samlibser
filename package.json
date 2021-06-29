@@ -10,7 +10,8 @@
     "dev:ssr": "ng run samlibser:serve-ssr",
     "serve:ssr": "node dist/samlibser/server/main.js",
     "build:ssr": "ng build && ng run samlibser:server",
-    "prerender": "ng run samlibser:prerender"
+    "prerender": "ng run samlibser:prerender",
+    "lint": "ng lint"
   },
   "private": true,
   "dependencies": {
@@ -33,12 +34,20 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~12.1.0",
+    "@angular-eslint/builder": "12.2.0",
+    "@angular-eslint/eslint-plugin": "12.2.0",
+    "@angular-eslint/eslint-plugin-template": "12.2.0",
+    "@angular-eslint/schematics": "12.2.0",
+    "@angular-eslint/template-parser": "12.2.0",
     "@angular/cli": "~12.1.0",
     "@angular/compiler-cli": "~12.1.0",
     "@nguniversal/builders": "^12.1.0",
     "@types/express": "^4.17.0",
     "@types/jasmine": "~3.6.0",
     "@types/node": "^12.11.1",
+    "@typescript-eslint/eslint-plugin": "4.23.0",
+    "@typescript-eslint/parser": "4.23.0",
+    "eslint": "^7.26.0",
     "jasmine-core": "~3.7.0",
     "karma": "~6.3.0",
     "karma-chrome-launcher": "~3.1.0",
