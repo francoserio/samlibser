@@ -177,6 +177,7 @@
   },
   "defaultProject": "samlibser",
   "cli": {
+    "analytics": false,
     "defaultCollection": "@angular-eslint/schematics"
   }
 }
