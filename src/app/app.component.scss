@@ -1,0 +1,34 @@
+#typing {
+  color: black;
+  float: left;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 5s steps(40) 3s infinite alternate;
+}
+
+#crow {
+  float: left;
+  color: black;
+  font-family: consolas;
+  font-weight: bold;
+  font-size: 60px;
+  animation: crow 0.5s linear 0s infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0ch;
+  }
+  to {
+    width: 30ch;
+  }
+}
+
+@keyframes crow {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
